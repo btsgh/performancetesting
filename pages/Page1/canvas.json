@@ -1,0 +1,147 @@
+{
+  "unpublishedPage": {
+    "name": "Page1",
+    "slug": "page1",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 743,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 1290,
+          "containerStyle": "none",
+          "snapRows": 125,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 59,
+          "minHeight": 1292,
+          "parentColumnSpace": 1,
+          "dynamicTriggerPathList": [],
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
+          "children": [
+            {
+              "widgetName": "Checkbox1",
+              "displayName": "Checkbox",
+              "iconSVG": "/static/media/icon.aaab032b.svg",
+              "topRow": 4,
+              "bottomRow": 8,
+              "parentRowSpace": 10,
+              "type": "CHECKBOX_WIDGET",
+              "alignWidget": "LEFT",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 15.0625,
+              "leftColumn": 4,
+              "dynamicBindingPathList": [
+                {
+                  "key": "accentColor"
+                },
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "labelPosition": "Left",
+              "isDisabled": false,
+              "key": "b94inw4o8k",
+              "isRequired": false,
+              "isDeprecated": false,
+              "rightColumn": 20,
+              "widgetId": "uva9gmgrrn",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "isVisible": true,
+              "label": "Label",
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "defaultCheckedState": true
+            },
+            {
+              "widgetName": "CheckboxGroup1",
+              "dynamicPropertyPathList": [
+                {
+                  "key": "isDisabled"
+                }
+              ],
+              "displayName": "Checkbox Group",
+              "iconSVG": "/static/media/icon.ecb38479.svg",
+              "labelText": "Label",
+              "topRow": 15,
+              "bottomRow": 21,
+              "parentRowSpace": 10,
+              "labelWidth": 5,
+              "type": "CHECKBOX_GROUP_WIDGET",
+              "hideCard": false,
+              "isSelectAll": true,
+              "animateLoading": true,
+              "parentColumnSpace": 15.0625,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 3,
+              "dynamicBindingPathList": [
+                {
+                  "key": "accentColor"
+                },
+                {
+                  "key": "borderRadius"
+                },
+                {
+                  "key": "isDisabled"
+                }
+              ],
+              "labelPosition": "Left",
+              "options": [
+                {
+                  "label": "Blue",
+                  "value": "BLUE"
+                },
+                {
+                  "label": "Green",
+                  "value": "GREEN"
+                },
+                {
+                  "label": "Red",
+                  "value": "RED"
+                }
+              ],
+              "isDisabled": "{{Checkbox1.isChecked}}",
+              "key": "cbk326iy80",
+              "labelTextSize": "0.875rem",
+              "isRequired": false,
+              "isDeprecated": false,
+              "rightColumn": 26,
+              "defaultSelectedValues": "BLUE",
+              "widgetId": "16e7iseipc",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "isVisible": true,
+              "version": 2,
+              "parentId": "0",
+              "labelAlignment": "left",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "isInline": true
+            }
+          ]
+        },
+        "layoutOnLoadActions": [],
+        "validOnPageLoadActions": true,
+        "id": "Page1",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": []
+  },
+  "deleted": false,
+  "gitSyncId": "6234539f4d9aea1b062abe40_6234539f4d9aea1b062abe42"
+}
