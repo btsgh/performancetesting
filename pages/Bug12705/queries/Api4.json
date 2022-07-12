@@ -78,7 +78,69 @@
             {}
           ]
         }
-      ]
+      ],
+      "formData": {
+        "command": {
+          "data": "FETCH_MANY",
+          "viewType": "component",
+          "componentData": "FETCH_MANY"
+        },
+        "entityType": {
+          "data": "ROWS",
+          "viewType": "component",
+          "componentData": "ROWS"
+        },
+        "pagination": {
+          "data": {
+            "offset": "0",
+            "limit": "10"
+          },
+          "viewType": "component",
+          "componentData": {
+            "offset": "0",
+            "limit": "10"
+          }
+        },
+        "queryFormat": {
+          "data": "ROWS",
+          "viewType": "component",
+          "componentData": "ROWS"
+        },
+        "rowIndex": {
+          "data": "0",
+          "viewType": "component",
+          "componentData": "0"
+        },
+        "sheetName": {
+          "data": "Sheet2",
+          "viewType": "component",
+          "componentData": "Sheet2"
+        },
+        "sheetUrl": {
+          "data": "https://docs.google.com/spreadsheets/d/1F1AUzQzOKY2fM1ShmRHOe_qVlq6f_uFE3-XnJdW79S8/edit",
+          "viewType": "component",
+          "componentData": "https://docs.google.com/spreadsheets/d/1F1AUzQzOKY2fM1ShmRHOe_qVlq6f_uFE3-XnJdW79S8/edit"
+        },
+        "smartSubstitution": {
+          "data": true,
+          "viewType": "component",
+          "componentData": true
+        },
+        "tableHeaderIndex": {
+          "data": "1",
+          "viewType": "component",
+          "componentData": "1"
+        },
+        "where": {
+          "data": {
+            "condition": "AND"
+          },
+          "viewType": "component",
+          "componentData": {
+            "condition": "AND"
+          }
+        }
+      }
     },
     "executeOnLoad": true,
     "dynamicBindingPathList": [],
