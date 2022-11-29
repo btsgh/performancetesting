@@ -1,0 +1,21 @@
+{
+  "unpublishedCollection": {
+    "name": "JSObject1",
+    "pageId": "Page15",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\noptions:[\n  {\n    \"label\": \"Blue\",\n    \"value\": \"BLUE\"\n  },\n  {\n    \"label\": \"Green\",\n    \"value\": \"GREEN\"\n  },\n  {\n    \"label\": \"Red\",\n    \"value\": \"RED\"\n  }\n]\n}",
+    "variables": [
+      {
+        "name": "options",
+        "value": "[{\n  \"label\": \"Blue\",\n  \"value\": \"BLUE\"\n}, {\n  \"label\": \"Green\",\n  \"value\": \"GREEN\"\n}, {\n  \"label\": \"Red\",\n  \"value\": \"RED\"\n}]"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "Page15_JSObject1",
+  "deleted": false,
+  "gitSyncId": "6234539f4d9aea1b062abe40_6385b14c3e748351b7e6d4e7"
+}
